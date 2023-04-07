@@ -10,7 +10,7 @@ header .logo {
     margin: 50px auto;
 }
 .page-title {
-    background: #642bff;
+    background: #6F2bff;
     color: white;
     padding: 5px 0;
     text-align: center;
@@ -29,7 +29,7 @@ header .logo {
     margin-bottom: 20px;
 }
 #order_num {
-    width: 88%;
+    width: 79%;
     padding: 15px 0;
     margin: 10px 0;
 }
@@ -38,16 +38,15 @@ header .logo {
     margin: 10px 0;
 }
 #guk_num {
-    width: 10%;
+    width: 24.3%;
 }
 #mid_num {
-    width: 15%;
+    width: 25%;
 }
 #last_num {
-    width: 15%;
+    width: 25%;
 }
 [for=order_num], [for=guk_num] {
-    background: orange;
     display: inline-block;
     width: 15%;
     margin-right: 2%;
@@ -61,7 +60,7 @@ header .logo {
     text-indent: 20px;
 }
 [type=submit] {
-    background: #642bff;
+    background: #6F2bff;
     color: white;
     border: 0;
     font-size: 19px;
@@ -72,7 +71,9 @@ header .logo {
     border: 0;
     font-size: 19px;
 }
-
+.check-field [type=submit] {
+    background-color: #000;
+}
 .screen_out {
     position: absolute;
     left: 100%;
@@ -96,22 +97,22 @@ header .logo {
     text-decoration: none;
     font-size: 14px;
 }
-footer {
-    text-align: center;
-}
 .contact {
     font-size: 40px;
     color: #d8724e;
+    text-align: center;
     margin: 15px 0;
 }
 .address {
     font-size: 13px;
     color: #999;
+    text-align: center;
 }
 .owner {
     font-size: 12px;
     color: #999;
-    margin: 0;
+    text-align: center;
+    margin: 10px 0;
 }
 footer .logo2 {
     margin: 30px auto;
